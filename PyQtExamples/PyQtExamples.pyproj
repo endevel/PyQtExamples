@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>09436f85-ba0f-41ba-b44b-fecb8d407999</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PyQtExamples.py</StartupFile>
+    <StartupFile>treeview\treeview.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PyQtExamples.py" />
+    <Compile Include="treeview\firsttree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="treeview\treeview.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="treeview\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="treeview\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
